@@ -8,8 +8,6 @@ import midtransclient
 def createTransaction(request):
     snap = midtransclient.Snap(
         is_production=False,
-        server_key='SB-Mid-server-QvGNSlna9G41nOdjRvYPcY8p',
-        client_key='SB-Mid-client-thJUgy3dhkvfGpYW'
     )
 
     param = {
